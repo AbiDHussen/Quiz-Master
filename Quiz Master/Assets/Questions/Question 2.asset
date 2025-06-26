@@ -10,12 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2683aeac1cc2b224db212fe82d28d07c, type: 3}
-  m_Name: New Question
+  m_Name: Question 2
   m_EditorClassIdentifier: 
-  question: Enter New question text here
+  question: Which of the following access modifiers makes a member accessible only
+    within its own class?
   answers:
-  - Answer A
-  - Answer B
-  - Answer C
-  - Answer D
-  correctAnswerIndex: 0
+  - public
+  - 'private '
+  - protected
+  - internal
+  correctAnswerIndex: 1
